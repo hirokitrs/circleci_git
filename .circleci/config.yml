@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
+          name2: "Say hello"
           command: "echo Hello, World!"
 
 # Invoke jobs via workflows
